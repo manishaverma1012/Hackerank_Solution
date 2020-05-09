@@ -1,0 +1,11 @@
+import math
+n=int(input())
+x1=int(input())
+x2=int(input())
+x3=float(input())
+x4=float(input())
+a=x2/math.sqrt(n)
+A=x1-(x4*a)
+B=x1+(x4*a)
+print("%.2f"%A)
+print("%.2f"%B)

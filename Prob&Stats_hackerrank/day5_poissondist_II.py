@@ -1,0 +1,5 @@
+n=list(map(float,input().split()))
+ca=160+40*(n[0]+n[0]**2)
+cb=128+40*(n[1]+n[1]**2)
+print("%.3f"%ca)
+print("%.3f"%cb)
